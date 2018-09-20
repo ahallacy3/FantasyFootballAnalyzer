@@ -1,15 +1,17 @@
 from excelEdit import excelEdit
 from teams import teams
 from scores import scores
-from wins import wins
+from truewins import trueWins
+from waeWins import waeWins
 
 fileName = 'Alumni_Fantasy_League.xlsx'
 resultsFileName = 'Alumni_Fantasy_League_Results.xlsx'
 num_teams = 10
-num_weeks = 2
+num_weeks_played = 2
+num_weeks_total = 13
 resultArray = []
 
-seasonResults = excelEdit().reader(num_teams, num_weeks, fileName)
+seasonResults = excelEdit().reader(num_teams, num_weeks_played, fileName)
 
 teamList = teams().getTeams(num_teams, seasonResults)
 
@@ -25,11 +27,13 @@ rangeScores = scores().rangeScores(teamScores)
 
 stdDevScores = scores().stdDevScores(teamScores)
 
-winsAgainstEveryone = wins().totalWinsAgainstEveryone(teamScores)
+winsAgainstEveryone = waeWins().totalWinsAgainstEveryone(teamScores)
 
-normalizedWinsAgainstEveryone = wins().normalizedWinsAgainstEveryone(winsAgainstEveryone)
+normalizedWinsAgainstEveryone = waeWins().normalizedWinsAgainstEveryone(winsAgainstEveryone)
 
-trueWins = wins().trueWins(seasonResults, teamList)
+waeStrengthOfSchedule = waeWins().strengthOfSchedule(seasonResults, teamScores)
+
+trueWins = trueWins().trueWins(seasonResults, teamList)
 
 teamList.insert(0, 'Team Name')
 
@@ -42,6 +46,7 @@ resultArray.append(stdDevScores)
 resultArray.append(trueWins)
 resultArray.append(winsAgainstEveryone)
 resultArray.append(normalizedWinsAgainstEveryone)
+resultArray.append(waeStrengthOfSchedule)
 
 excelEdit().writer(resultArray, fileName, resultsFileName)
 print(resultArray)
