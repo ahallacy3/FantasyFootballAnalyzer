@@ -9,9 +9,9 @@ TODO
 - playoff predictions
 
 Project Setup:
-- clone
-- virtualenv venv
-- activate venv
-- - On Windows, venv\Scripts\activate
-- - On Mac/Linux, source venv/bin/activate
--pip install -r requirements.txt
+* clone
+* virtualenv venv
+* activate venv
+  * On Windows, venv\Scripts\activate
+  * On Mac/Linux, source venv/bin/activate
+* pip install -r requirements.txt
