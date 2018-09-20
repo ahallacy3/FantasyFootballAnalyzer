@@ -1,4 +1,4 @@
-TODO
+## TODO ##
 - conditional formatting
 - averages?
 - Ranks - wea, nwea, true wins
@@ -8,7 +8,11 @@ TODO
 - predictions on total score
 - playoff predictions
 
-Project Setup:
+## Project Prereqs ##
+* Python 3.7, pip, virtualenv (pip and virtualenv should be included with a python install)
+* Python in your PATH
+
+## Project Setup ##
 * clone
 * virtualenv venv
 * activate venv
