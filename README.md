@@ -1,4 +1,6 @@
 ## TODO ##
+- update documentation on running project
+- Optional webscraping
 - conditional formatting
 - averages?
 - Ranks - wea, nwea, true wins
@@ -19,3 +21,5 @@
   * On Windows, venv\Scripts\activate
   * On Mac/Linux, source venv/bin/activate
 * pip install -r requirements.txt
+
+## Running Project ##
