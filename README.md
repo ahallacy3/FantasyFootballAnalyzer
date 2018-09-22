@@ -1,5 +1,4 @@
 ## TODO ##
-- update documentation on running project
 - Optional webscraping
 - conditional formatting
 - averages?
@@ -21,5 +20,21 @@
   * On Windows, venv\Scripts\activate
   * On Mac/Linux, source venv/bin/activate
 * pip install -r requirements.txt
-
 ## Running Project ##
+### Using a formatted excel spreadsheet ###
+* Add/update excel workbook to project folder
+* python runProgram.py <weekNum> <teamCount> "<filename>" "<sheetname>"
+* * weekNum is num of weeks you want evaluated, starting with week 1
+* * * weeks that haven't happened will causing confusing results
+* * teamCount is the number of teams in your league
+* * filename is the path of your input file
+* * sheetname is the name of the sheet with your matchup data
+
+### Using data scraped from your espn league ###
+* python runProgram.py <weekNum> <teamCount> "<username>" "<password>" "<weekOneUrl>"
+* * weekNum is num of weeks you want evaluated, starting with week 1
+* * * weeks that haven't happened will causing confusing results
+* * teamCount is the number of teams in your league
+* * username is your espn account username
+* * password if your espn account password
+* * weekOneUrl is the url for the week one scoreboard for your league

@@ -24,8 +24,10 @@ class waeWins:
         for teamScore in teamScores:
             if teamScore[0] == team:
                 score = teamScore[week]
+                print(score)
         for teamScore in teamScores:
             if score > teamScore[week]:
+                print(teamScore)
                 wae += 1
         return wae
 
@@ -48,8 +50,8 @@ class waeWins:
         sosArray = ['Strength of Schedule']
         for team in teamScores:
             sos = 0
-            for i in range(0, len(seasonResults)):
-                for match in seasonResults[i]:
+            for i in range(1, len(seasonResults) + 1):
+                for match in seasonResults[i - 1]:
                     if match[0] == team[0]:
                         sos += self.winsAgainstEveryoneByWeek(teamScores, match[3], i)
                     elif match[3] == team[0]:

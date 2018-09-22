@@ -1,9 +1,10 @@
 from openpyxl import load_workbook
+from openpyxl import Workbook
 
 class excelEdit:
-    def reader(self, num_teams, num_weeks, fileName):
+    def reader(self, num_teams, num_weeks, fileName, sheetName):
         wb = load_workbook(fileName)
-        dataSheet = wb['NewData']
+        dataSheet = wb[sheetName]
 
         num_rows = 3 + (num_teams / 2) * num_weeks + 1
         matchData = []
@@ -21,9 +22,9 @@ class excelEdit:
                 weekData = []
         return seasonData
 
-    def writer(self, results, fileName, resultsFileName):
-        wb = load_workbook(fileName)
-        sheet = wb['NewResults']
+    def writer(self, results, resultsFileName):
+        wb = Workbook()
+        sheet = wb['Sheet']
         for col in range(1, len(results) + 1):
             for row in range(1, len(results[col - 1]) + 1):
                 sheet.cell(column=col, row=row, value=results[col - 1][row - 1])
