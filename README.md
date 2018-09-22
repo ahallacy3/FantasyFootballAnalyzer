@@ -1,7 +1,6 @@
 ## TODO ##
-- Optional webscraping
 - conditional formatting
-- averages?
+- averages for each column
 - Ranks - wea, nwea, true wins
 - Rank diff - true wins and wea, true wins and nwea
 - Charts?
@@ -12,6 +11,8 @@
 ## Project Prereqs ##
 * Python 3.7, pip, virtualenv (pip and virtualenv should be included with a python install)
 * Python in your PATH
+* geckodriver in your PATH (for firefox webscraping)
+* * this is not necessary if you're only going to run the excel version
 
 ## Project Setup ##
 * clone
@@ -20,6 +21,7 @@
   * On Windows, venv\Scripts\activate
   * On Mac/Linux, source venv/bin/activate
 * pip install -r requirements.txt
+
 ## Running Project ##
 ### Using a formatted excel spreadsheet ###
 * Add/update excel workbook to project folder
