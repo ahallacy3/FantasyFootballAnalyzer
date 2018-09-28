@@ -40,5 +40,5 @@ class excelEdit:
                               mid_type = 'percentile', mid_value = 50, mid_color = 'FFEB84',
                               end_type = 'percentile', end_value = 100, end_color = '63BE7B')
         for i in range(1, len(results)):
-            cellRange = string.ascii_uppercase[i] + str(2) + ':' + string.ascii_uppercase[i] + str(len(results))
+            cellRange = string.ascii_uppercase[i] + str(2) + ':' + string.ascii_uppercase[i] + str(len(results[i]) - 2)
             sheet.conditional_formatting.add(cellRange, rule)

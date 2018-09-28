@@ -57,6 +57,8 @@ def compileResults(teamCount, seasonResults, weekNum):
     scheduleLuck = waeWins().scheduleLuck(actualWins, expectedWins)
 
     teamList.insert(0, 'Team Name')
+    teamList.append('')
+    teamList.append('Averages')
 
     resultArray.append(teamList)
     resultArray.append(totalScores)
@@ -74,8 +76,19 @@ def compileResults(teamCount, seasonResults, weekNum):
     resultArray.append(expectedWins)
     resultArray.append(scheduleLuck)
 
+    resultArray = addAverage(resultArray)
+
     excelEdit().writer(resultArray, 'Analysis_Results.xlsx')
 
+
+def addAverage(resultArray):
+    for i in range(1, len(resultArray)):
+        total = 0
+        for j in range(1, len(resultArray[i])):
+            total += resultArray[i][j]
+        resultArray[i].append('')
+        resultArray[i].append(total / (len(resultArray[i]) - 2))
+    return resultArray
 
 if __name__ == "__main__":
     if len(sys.argv) == 5:
