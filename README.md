@@ -1,5 +1,4 @@
 ## TODO ##
-- conditional formatting
 - averages for each column
 - Ranks - wea, nwea, true wins
 - Rank diff - true wins and wea, true wins and nwea
@@ -7,6 +6,7 @@
 - Predictions individual matchups
 - predictions on total score
 - playoff predictions
+- More specific conditional formatting
 
 ## Project Prereqs ##
 * Python 3.7, pip, virtualenv (pip and virtualenv should be included with a python install)

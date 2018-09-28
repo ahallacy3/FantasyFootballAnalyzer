@@ -3376,3 +3376,939 @@ ueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped li
 [GPU 17268, Chrom
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1537914793811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.vwbmx4ltg1nT"
+1537914796416	Marionette	INFO	Listening on port 59860
+1537914796581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537914796655	Marionette	DEBUG	[6442450945] Frame script loaded
+1537914796657	Marionette	DEBUG	[6442450945] Frame script registered
+1537914796702	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537914797052	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1537914797918	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537914799228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1537914799282	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537914804890	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537914805007	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537914805008	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537914805595	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537914805645	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1537914805649	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1537914805649	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537914805649	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537914805649	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537914805650	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537914805650	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450985
+1537914806163	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537914806164	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1537914806939	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537914807391	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537914807504	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537914807507	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537914808127	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537914808128	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1537914808128	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451001
+1537914808129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450988
+1537914808129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1537914808129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1537914808129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451004
+1537914808130	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537914808697	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1537914808697	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1537914809409	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537914809822	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537914809942	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537914809944	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537914810390	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537914810446	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1537914810446	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1537914810447	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1537914810447	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1537914810447	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451007
+1537914810447	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451008
+1537914810447	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1537914810447	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451025
+1537914811298	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 4180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33472, Chrome_ChildThread] WARNI[Parent 4180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 139601537931907230	Marionette	INFO	Stopped listening on port 59860
+[GPU 552, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537931859952	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1537931860123	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537931865678	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537931865803	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537931865804	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537931866356	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931866408	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1537931866408	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1537931866409	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1537931866409	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1537931866409	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1537931866409	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450971
+1537931866409	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1537931866938	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537931866938	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1537931867472	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931868008	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931868135	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931868137	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931868743	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537931868743	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1537931868757	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1537931868758	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
+1537931868758	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1537931868758	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1537931868759	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1537931868772	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931869381	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1537931869381	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1537931870740	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931871086	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931871201	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931871202	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931871652	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537931871689	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1537931871689	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1537931871690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1537931871690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1537931871690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1537931871690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1537931871690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1537931872369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451030
+1537931872369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1537931873065	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 33492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 33492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27996, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[[ChChiildld 39464, Ch 27rom996e_C, ChildThhroread] me_WARNINGChildT: pipe erhread] WARNING: pipe ror: 109: file z:/build/builerror: 2d/src/ipc3/chromium/src/chrome/common/ipc_channel_win.cc, line 2: file z:/build/build/src/ipc/chromium/src/chrom346e/common/
+ipc_channel_win.cc, li[ne 513Ch
+[Child 27996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27996, Chrome_ChildT[Parent 33492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/i1537931917456	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537931917575	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537931917578	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537931918137	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931918189	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450975
+1537931918189	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537931918189	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537931918189	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1537931918189	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1537931918189	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1537931918190	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1537931918724	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1537931918724	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1537931918909	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931919131	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931919247	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931919247	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537931919928	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1537931919928	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537931919928	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1537931919928	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1537931919928	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450984
+1537931919929	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1537931919929	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931920518	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1537931920518	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451007
+1537931920754	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931921116	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931921307	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931921309	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537931921707	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537931921759	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451008
+1537931921761	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1537931921761	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1537931921761	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1537931921762	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451001
+1537931921762	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451004
+1537931921762	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1537931922286	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451025
+1537931922286	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451026
+1537931922614	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 31760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22128, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 51[Chi3ld 35
+996, Chrome_Ch[ChildildThr 22ead128] W, Chrome_ChildARNING: pipeThread]  error: 109WARNIN: filG: pipe ere z:/buror: 232: fild/ilebui z:ld//build/busrcild/ip/srcc/chro/ipmiuc/chm/src/chrome/coromium/srcmmon/ch/ipc_channel_win.cc, line 3rome/common/ipc_channe46l_win
+.cc, line 513
+[Child 35996[Child 22128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22128, Chrome_[Parent 31760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12264, C1537932418763	Marionette	INFO	Stopped listening on port 60427
+[GPU 25328, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932395742	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932396294	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932396332	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450982
+1537932396333	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1537932396333	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1537932396333	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537932396333	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537932396333	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537932396334	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537932396334	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1537932396862	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537932396862	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1537932397516	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932397913	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932398031	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932398034	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932398595	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1537932398596	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1537932398596	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451003
+1537932398597	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1537932398597	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1537932398597	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1537932398597	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1537932398619	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932399171	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1537932399171	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1537932399626	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932400082	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932400208	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932400210	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932400611	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537932400664	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1537932400665	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1537932400665	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451022
+1537932400665	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1537932400665	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451010
+1537932400665	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1537932400666	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451025
+1537932401359	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451034
+1537932401359	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451035
+1537932401972	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 21296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 21296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channe[Chill_wd 14944, Chrin.cc,ome_Chi line ldTh346read
+] WARNING: [Child 28pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14944, Chrome_ChildThre[Parent 21296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6412,1537932413320	Marionette	INFO	Stopped listening on port 60567
+[GPU 9416, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537932454766	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.rNMwAZu4O2ca"
+1537932456411	Marionette	INFO	Listening on port 60705
+1537932456882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537932456953	Marionette	DEBUG	[6442450945] Frame script loaded
+1537932456954	Marionette	DEBUG	[6442450945] Frame script registered
+1537932456970	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537932457267	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1537932457939	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932459219	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1537932459544	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+[Parent 40272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1537932465023	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932465042	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1537932465043	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1537932465043	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451001
+1537932465044	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451003
+1537932465149	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932465151	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932465672	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932465730	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450982
+1537932465730	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1537932465730	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1537932465731	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1537932465731	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451007
+1537932465732	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1537932465733	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1537932465733	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537932465733	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537932465733	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537932465733	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537932465733	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1537932466329	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1537932466329	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1537932466773	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451032
+1537932467021	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932467388	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932467408	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451034
+1537932467409	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451036
+1537932467410	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451038
+1537932467410	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451040
+1537932467519	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932467522	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932468127	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932468185	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1537932468185	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451030
+1537932468185	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451043
+1537932468185	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451045
+1537932468186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451050
+1537932468186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451022
+1537932468186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451025
+1537932468186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1537932468186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1537932468186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1537932468186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451028
+1537932468716	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451059
+1537932468716	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451060
+1537932469210	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451081
+1537932469373	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932469755	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932469773	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451083
+1537932469773	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451085
+1537932469775	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451087
+1537932469776	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451089
+1537932469894	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932469897	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932470300	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537932470367	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451061
+1537932470368	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451077
+1537932470368	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451079
+1537932470368	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451091
+1537932470368	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451095
+1537932470369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451062
+1537932470369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451069
+1537932470369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451068
+1537932470369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451055
+1537932470369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451056
+1537932470369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451063
+1537932470370	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451075
+1537932470918	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451107
+1537932470918	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451108
+1537932471230	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 40272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33056, Chrome_ChildThread] WARNING: pipe error: IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 40840, Chrome_ChildThread] WARNING: pipe error: 109: file [Parent 40272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21304, Chrome_C1537932473828	Marionette	INFO	Stopped listening on port 60705
+[GPU 32392, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537932617073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.9XCBwrdEOf2U"
+1537932618720	Marionette	INFO	Listening on port 60857
+1537932619195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537932619262	Marionette	DEBUG	[6442450945] Frame script loaded
+1537932619264	Marionette	DEBUG	[6442450945] Frame script registered
+1537932619279	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537932619582	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1537932620448	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932621769	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1537932622207	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932627703	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932627817	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932627820	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932628352	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932628404	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1537932628404	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1537932628405	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537932628405	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537932628405	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537932628405	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537932628406	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450985
+1537932628910	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537932628910	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1537932629503	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932630048	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932630166	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932630168	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932630748	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537932630749	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1537932630749	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451001
+1537932630750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450988
+1537932630750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1537932630750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1537932630750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1537932630750	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932632115	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932632519	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932632635	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932632638	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932633070	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537932633132	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1537932633132	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1537932633132	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1537932633133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1537932633133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451008
+1537932633133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1537932633133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1537932633133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451024
+1537932633755	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1537932633755	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451032
+1537932633993	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 34652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9868, Chrome_Chi[Parent 34652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1537932647837	Marionette	INFO	Stopped listening on port 60857
+[GPU 41340, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537932696810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.UIPq6yqm0OfK"
+1537932698457	Marionette	INFO	Listening on port 60994
+1537932698926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537932698995	Marionette	DEBUG	[6442450945] Frame script loaded
+1537932698997	Marionette	DEBUG	[6442450945] Frame script registered
+1537932699009	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537932699322	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1537932699979	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932701489	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1537932701809	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932707375	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932707504	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932707506	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932708035	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932708072	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450982
+1537932708073	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1537932708073	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1537932708073	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537932708073	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537932708074	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537932708074	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537932708074	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1537932708601	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1537932708601	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1537932708946	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932709306	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932709465	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932709467	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932710095	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1537932710097	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1537932710098	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451004
+1537932710098	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451003
+1537932710098	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1537932710099	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1537932710099	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537932710099	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451008
+1537932710108	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932710709	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451017
+1537932710709	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1537932711110	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932711595	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932711705	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932711707	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932712109	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537932712161	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1537932712161	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1537932712162	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451024
+1537932712162	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1537932712162	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1537932712162	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1537932712162	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451027
+1537932712835	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451036
+1537932712835	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451037
+1537932713330	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3003[Child 25028, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 25028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25028, Chrome_ChildThre[Parent 800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23296, Ch1537932994920	Marionette	INFO	Stopped listening on port 60994
+[GPU 33796, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+or 6442450963
+1537932908734	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932914360	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932914473	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932914474	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932915038	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932915090	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1537932915090	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1537932915090	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1537932915091	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537932915091	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537932915091	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537932915091	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537932915091	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450985
+1537932916211	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932916673	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932916789	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932916791	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932917389	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537932917390	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1537932917391	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1537932917391	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450988
+1537932917391	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1537932917391	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1537932917391	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1537932917402	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932917977	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1537932917977	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1537932918487	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932918967	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932919082	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932919085	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932919494	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537932919543	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1537932919543	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1537932919544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1537932919544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1537932919544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1537932919544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1537932919544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1537932919544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1537932920269	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451034
+1537932920269	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451035
+1537932920388	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Child 27456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27456, Chrome_Child[Parent 32436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23292, Chrome_ChildT[Parent 32436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37224, C1537932929324	Marionette	INFO	Stopped listening on port 61136
+[GPU 17984, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537932936518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.AUmUl7xB2d6s"
+1537932938135	Marionette	INFO	Listening on port 61269
+1537932938146	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537932938221	Marionette	DEBUG	[6442450945] Frame script loaded
+1537932938226	Marionette	DEBUG	[6442450945] Frame script registered
+1537932938242	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537932938561	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1537932939235	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932940480	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1537932940530	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537932946111	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932946230	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932946232	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537932947297	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932947346	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1537932947346	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1537932947347	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537932947347	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537932947347	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537932947347	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537932947348	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450985
+1537932947845	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537932947845	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1537932948814	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932949225	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932949341	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932949343	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537932949912	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932949950	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537932949950	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1537932949950	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1537932949951	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1537932949951	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451001
+1537932949951	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1537932949952	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451003
+1537932949952	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451004
+1537932949953	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1537932949953	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1537932949953	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450988
+1537932949953	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1537932949953	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1537932949953	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1537932950480	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
+1537932950481	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451030
+1537932951829	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932952165	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932952291	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932952293	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537932952875	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1537932952876	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451032
+1537932952876	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451037
+1537932952877	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451036
+1537932952877	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1537932952877	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451024
+1537932952877	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451027
+1537932952877	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451041
+1537932952878	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537932953908	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451048
+1537932953908	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451049
+1537932954457	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Child 26960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrom[Parent e31992, Gecko_IOThread] W/common/ipc_cARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+hannel_win.cc, line 346
+[Child 26960, [Child 24856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24856, Chrome_ChildThread] WARNING: pipe error[Parent 31992, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33864, 1537932959137	Marionette	INFO	Stopped listening on port 61269
+[GPU 41932, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537933007492	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.lVMjywWVVxbT"
+1537933009108	Marionette	INFO	Listening on port 61431
+1537933009610	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537933009692	Marionette	DEBUG	[6442450945] Frame script loaded
+1537933009694	Marionette	DEBUG	[6442450945] Frame script registered
+1537933009712	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537933010015	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1537933010805	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537933012057	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1537933012261	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537933017809	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537933017925	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537933017927	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537933018456	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933018505	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1537933018505	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1537933018506	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1537933018506	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1537933018506	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1537933018506	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450971
+1537933018507	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1537933019031	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1537933019031	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1537933019276	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933019626	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+JavaScript error: http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2, line 383: TypeError: e.onFail is undefined
+JavaScript error: http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2, line 383: TypeError: e.onFail is undefined
+1537933019744	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933019748	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933020356	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537933020357	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1537933020358	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1537933020358	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
+1537933020358	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1537933020359	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1537933020359	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1537933020360	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537933021025	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1537933021025	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1537933022289	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537933022592	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537933022706	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537933022711	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537933023140	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1537933023199	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1537933023199	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1537933023200	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1537933023200	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1537933023200	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1537933023200	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1537933023201	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1537933023201	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451025
+1537933023874	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451035
+1537933023875	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451036
+1537933024386	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 28632, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25888, Chrome_ChildThread] WARNI[Parent 28632, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24980, C1537933028433	Marionette	INFO	Stopped listening on port 61431
+[GPU 27812, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537933317728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.tezkv4G8bWti"
+1537933319399	Marionette	INFO	Listening on port 61587
+1537933319849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537933319916	Marionette	DEBUG	[6442450945] Frame script loaded
+1537933319919	Marionette	DEBUG	[6442450945] Frame script registered
+1537933319937	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537933320269	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1537933320947	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537933322228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1537933322271	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1537933327848	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537933327961	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537933327963	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1537933328501	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933328545	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1537933328547	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1537933328547	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450981
+1537933328547	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1537933328547	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1537933328548	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1537933328548	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1537933328548	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1537933329056	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1537933329056	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1537933329568	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933330066	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933330180	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933330182	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1537933330766	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1537933330767	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1537933330767	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451003
+1537933330767	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1537933330767	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1537933330767	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1537933330768	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1537933330777	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1537933331369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1537933331369	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1537933332004	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+[Parent 26360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 26360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x560027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 5044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5044, Chrome_ChildThread] [Parent 26360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21736, Ch1537933334651	Marionette	INFO	Stopped listening on port 61587
+[GPU 27468,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538164591362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.V2nixzXV5ylC"
+1538164631970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.eD9cDHx7o36U"
+1538164633813	Marionette	INFO	Listening on port 59915
+1538164634085	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538164634163	Marionette	DEBUG	[6442450945] Frame script loaded
+1538164634167	Marionette	DEBUG	[6442450945] Frame script registered
+1538164634189	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538164634403	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1538164634960	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538164636072	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1538164636325	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538164641877	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538164641972	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538164641974	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538164642621	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1538164642621	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1538164642622	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1538164642622	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538164642622	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1538164642622	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450971
+1538164642622	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1538164642623	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538164643235	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1538164643236	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1538164643913	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538164644357	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538164644460	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538164644462	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538164645070	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1538164645070	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1538164645071	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1538164645071	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
+1538164645071	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1538164645071	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1538164645072	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1538164645082	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538164645654	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1538164645654	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1538164646010	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538164646514	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538164646613	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538164646615	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538164647161	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1538164647162	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1538164647163	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1538164647163	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1538164647163	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1538164647163	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1538164647164	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1538164647164	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1538164647722	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451030
+1538164647722	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1538164647949	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[[Child 17612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 34Child 37140, Chrome_ChildThread6] WARNING: pipe error: 109: file 
+z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Child 17612, Chr
+[Child 37140, Chrome_ChildThre[Child 32752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32752, Chrome_ChildThre1538165950198	Marionette	INFO	Stopped listening on port 59915
+[GPU 23628, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ut:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1538165699073	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538165700190	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1538165700321	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538165705908	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538165706002	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538165706004	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538165706929	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165706986	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1538165706987	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1538165706987	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1538165706987	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538165706988	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1538165706988	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450971
+1538165706988	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1538165707526	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1538165707526	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1538165707828	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165708537	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165708645	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165708647	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165709230	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165709281	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1538165709282	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1538165709283	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1538165709283	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450986
+1538165709284	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1538165709284	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1538165709285	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1538165710053	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165710552	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165710652	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165710654	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165711189	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1538165711228	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1538165711229	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1538165711230	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1538165711230	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1538165711230	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1538165711230	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1538165711230	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1538165711853	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451030
+1538165711853	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1538165712040	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 40408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13028, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 13028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 40408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11076, Chr1538165950243	Marionette	INFO	Stopped listening on port 60146
+[GPU 25112
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ine break
+1538165927683	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538165928835	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1538165928860	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538165934339	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538165934444	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538165934446	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538165935298	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165935352	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1538165935353	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450985
+1538165935353	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1538165935353	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450971
+1538165935353	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538165935353	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1538165935354	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1538165935354	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450983
+1538165935919	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1538165935919	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1538165936639	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165936925	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165937036	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165937039	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538165937672	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1538165937673	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451007
+1538165937673	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1538165937673	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1538165937687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450989
+1538165937687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450990
+1538165937687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1538165937687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1538165937688	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165938317	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1538165938317	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1538165939024	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165939506	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165939609	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165939613	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538165940077	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1538165940129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1538165940129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
+1538165940129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1538165940129	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451024
+1538165940130	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1538165940130	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1538165940131	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1538165940131	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451027
+1538165940750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451040
+1538165940750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451041
+1538165940853	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 32832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 32832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 32832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16208, Chrome_Child1538165950298	Marionette	INFO	Stopped listening on port 60293
+[GPU 3384
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538166039878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile.hw5CR3wWahoS"
+1538166041526	Marionette	INFO	Listening on port 60450
+1538166041994	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538166042074	Marionette	DEBUG	[6442450945] Frame script loaded
+1538166042078	Marionette	DEBUG	[6442450945] Frame script registered
+1538166042105	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538166042339	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187, line 53: SyntaxError: "" string literal contains an unescaped line break
+1538166042865	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538166044149	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1538166044187	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/signin?redir=http%3A%2F%2Fgames.espn.com%2Fffl%2Fscoreboard%3FmatchupPeriodId%3D1%26leagueId%3D1322187
+1538166049736	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538166049842	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538166049844	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?matchupPeriodId=1&leagueId=1322187
+1538166050448	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538166050499	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1538166050499	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1538166050500	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450975
+1538166050500	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1538166050500	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450969
+1538166050500	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450972
+1538166050500	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450984
+1538166050993	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1538166050993	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1538166051607	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538166052043	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538166052142	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538166052144	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=2
+1538166052697	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538166052749	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1538166052750	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1538166052751	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1538166052751	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450987
+1538166052751	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450988
+1538166052752	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1538166052753	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451003
+1538166053281	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451010
+1538166053281	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1538166053526	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538166053992	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538166054097	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538166054099	Marionette	DEBUG	[6442450945] Received DOM event unload for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=3
+1538166054673	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1538166054675	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1538166054675	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1538166054675	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1538166054675	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451007
+1538166054676	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1538166054676	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1538166054676	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+1538166055303	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451033
+1538166055303	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451034
+1538166055556	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=4
+[Parent 32564, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5748, Chrome_Child[Child 4908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 32564, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11348,1538166063899	Marionette	INFO	Stopped listening on port 60450
+[GPU 8736, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

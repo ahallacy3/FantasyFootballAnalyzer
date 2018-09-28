@@ -15,14 +15,13 @@ def runProgramWithLogin(weekNum, teamCount, userName, passWord, weekOneUrl):
     dataCrawler = espnSpider(weekOneUrl)
     dataCrawler.login(userName, passWord)
     seasonResults = dataCrawler.getData(weekNum, teamCount)
-    compileResults(teamCount, seasonResults)
+    compileResults(teamCount, seasonResults, weekNum)
 
 def runProgramWithSpreadsheet(weekNum, teamCount, fileName, sheetName):
     seasonResults = excelEdit().reader(teamCount, weekNum, fileName, sheetName)
-    print(seasonResults)
-    compileResults(teamCount, seasonResults)
+    compileResults(teamCount, seasonResults, weekNum)
 
-def compileResults(teamCount, seasonResults):
+def compileResults(teamCount, seasonResults, weekNum):
     resultArray = []
 
     teamList = teams().getTeams(teamCount, seasonResults)
@@ -47,6 +46,16 @@ def compileResults(teamCount, seasonResults):
 
     actualWins = trueWins().getTrueWins(seasonResults, teamList)
 
+    winDiff = waeWins().winDiff(normalizedWinsAgainstEveryone, actualWins)
+
+    nStrengthOfSchedule = waeWins().normalizedLosses(waeStrengthOfSchedule)
+
+    lossDiff = waeWins().lossDiff(nStrengthOfSchedule, actualWins, weekNum)
+
+    expectedWins = waeWins().expectedWins(winsAgainstEveryone, waeStrengthOfSchedule, weekNum)
+
+    scheduleLuck = waeWins().scheduleLuck(actualWins, expectedWins)
+
     teamList.insert(0, 'Team Name')
 
     resultArray.append(teamList)
@@ -58,9 +67,14 @@ def compileResults(teamCount, seasonResults):
     resultArray.append(actualWins)
     resultArray.append(winsAgainstEveryone)
     resultArray.append(normalizedWinsAgainstEveryone)
+    resultArray.append(winDiff)
     resultArray.append(waeStrengthOfSchedule)
+    resultArray.append(nStrengthOfSchedule)
+    resultArray.append(lossDiff)
+    resultArray.append(expectedWins)
+    resultArray.append(scheduleLuck)
 
-    excelEdit().writer(resultArray, 'result.xlsx')
+    excelEdit().writer(resultArray, 'Analysis_Results.xlsx')
 
 
 if __name__ == "__main__":
