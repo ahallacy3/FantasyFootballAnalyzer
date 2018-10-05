@@ -11,17 +11,17 @@ fileName = 'Alumni_Fantasy_League.xlsx'
 weekOneUrl = 'http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=1'
 num_weeks_total = 13
 
-def runProgramWithLogin(weekNum, teamCount, userName, passWord, weekOneUrl):
+def runProgramWithLogin(weekNum, teamCount, userName, passWord, weekOneUrl, resultFileName):
     dataCrawler = espnSpider(weekOneUrl)
     dataCrawler.login(userName, passWord)
     seasonResults = dataCrawler.getData(weekNum, teamCount)
-    compileResults(teamCount, seasonResults, weekNum)
+    compileResults(teamCount, seasonResults, weekNum, resultFileName)
 
-def runProgramWithSpreadsheet(weekNum, teamCount, fileName, sheetName):
+def runProgramWithSpreadsheet(weekNum, teamCount, fileName, sheetName, resultFileName):
     seasonResults = excelEdit().reader(teamCount, weekNum, fileName, sheetName)
-    compileResults(teamCount, seasonResults, weekNum)
+    compileResults(teamCount, seasonResults, weekNum, resultFileName)
 
-def compileResults(teamCount, seasonResults, weekNum):
+def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
     resultArray = []
 
     teamList = teams().getTeams(teamCount, seasonResults)
@@ -78,7 +78,7 @@ def compileResults(teamCount, seasonResults, weekNum):
 
     resultArray = addAverage(resultArray)
 
-    excelEdit().writer(resultArray, 'Analysis_Results.xlsx')
+    excelEdit().writer(resultArray, resultsFileName)
 
 
 def addAverage(resultArray):
@@ -91,9 +91,9 @@ def addAverage(resultArray):
     return resultArray
 
 if __name__ == "__main__":
-    if len(sys.argv) == 5:
-        runProgramWithSpreadsheet(int(sys.argv[1]), int(sys.argv[2]),sys.argv[3],sys.argv[4])
-    elif len(sys.argv) == 6:
-        runProgramWithLogin(int(sys.argv[1]), int(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5])
+    if len(sys.argv) == 6:
+        runProgramWithSpreadsheet(int(sys.argv[1]), int(sys.argv[2]),sys.argv[3],sys.argv[4], sys.argv[5])
+    elif len(sys.argv) == 7:
+        runProgramWithLogin(int(sys.argv[1]), int(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6])
     else:
         print('Invalid number of arguments')

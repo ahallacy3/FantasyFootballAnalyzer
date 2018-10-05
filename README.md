@@ -1,5 +1,6 @@
 ## TODO ##
-- averages for each column
+- update running instructions
+- Default sort
 - Ranks - wea, nwea, true wins
 - Rank diff - true wins and wea, true wins and nwea
 - Charts?

@@ -51,7 +51,7 @@ class waeWins:
         return nSos
 
     def strengthOfSchedule(self, seasonResults, teamScores):
-        sosArray = ['Strength of Schedule']
+        sosArray = ['SoS']
         for team in teamScores:
             sos = 0
             for i in range(1, len(seasonResults) + 1):

@@ -38,6 +38,7 @@ class espnSpider():
             seasonResults.append(self.getWeekData())
             if (i <= weekNum):
                 self.weekNav(i + 1)
+        self.browser.close();
         return(seasonResults)
 
     def getWeekData(self):
