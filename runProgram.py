@@ -76,6 +76,8 @@ def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
     resultArray.append(expectedWins)
     resultArray.append(scheduleLuck)
 
+    resultArray = dataSort(resultArray)
+
     resultArray = addAverage(resultArray)
 
     excelEdit().writer(resultArray, resultsFileName)
@@ -89,6 +91,30 @@ def addAverage(resultArray):
         resultArray[i].append('')
         resultArray[i].append(total / (len(resultArray[i]) - 2))
     return resultArray
+
+
+def dataSort(results):
+    sortedResults = []
+    sortOrder = []
+    print(results)
+    for i in range(0, len(results)):
+        if (results[i][0] == "How bad has your schedule fucked you?"):
+            sortArray = results[i][1:len(results[i])]
+            for j in range(0, len(sortArray)):
+                print(max(sortArray))
+                print(sortArray.index(max(sortArray)))
+                sortOrder.append(sortArray.index(max(sortArray)))
+                sortArray.remove(max(sortArray))
+    print(sortOrder)
+    for i in range(0, len(results)):
+        sortedResults.append([])
+        sortedResults[i].append(results[i][0])
+        results[i].remove(results[i][0])
+        for j in range(0, len(sortOrder)):
+            sortedResults[i].append(results[i][sortOrder[j]])
+            results[i].remove(results[i][sortOrder[j]])
+    print(sortedResults)
+    return sortedResults
 
 if __name__ == "__main__":
     if len(sys.argv) == 6:

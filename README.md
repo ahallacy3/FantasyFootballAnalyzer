@@ -1,6 +1,4 @@
 ## TODO ##
-- update running instructions
-- Default sort
 - Ranks - wea, nwea, true wins
 - Rank diff - true wins and wea, true wins and nwea
 - Charts?
@@ -26,18 +24,21 @@
 ## Running Project ##
 ### Using a formatted excel spreadsheet ###
 * Add/update excel workbook to project folder
-* python runProgram.py <weekNum> <teamCount> "<filename>" "<sheetname>"
+* python runProgram.py <weekNum> <teamCount> "<filename>" "<sheetname>" "<resultFileName>"
 * * weekNum is num of weeks you want evaluated, starting with week 1
 * * * weeks that haven't happened will causing confusing results
 * * teamCount is the number of teams in your league
 * * filename is the path of your input file
 * * sheetname is the name of the sheet with your matchup data
+* * resultFileName is the name of the file you want the results printed to
 
 ### Using data scraped from your espn league ###
-* python runProgram.py <weekNum> <teamCount> "<username>" "<password>" "<weekOneUrl>"
+* python runProgram.py <weekNum> <teamCount> "<username>" "<password>" "<weekOneUrl>" "<resultFileName>"
 * * weekNum is num of weeks you want evaluated, starting with week 1
 * * * weeks that haven't happened will causing confusing results
 * * teamCount is the number of teams in your league
 * * username is your espn account username
 * * password if your espn account password
 * * weekOneUrl is the url for the week one scoreboard for your league
+* * resultFileName is the name of the file you want the results printed to
+
