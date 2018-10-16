@@ -76,7 +76,7 @@ def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
     resultArray.append(expectedWins)
     resultArray.append(scheduleLuck)
 
-    resultArray = dataSort(resultArray)
+    resultArray = dataSort(resultArray) # This is breaking something
 
     resultArray = addAverage(resultArray)
 
@@ -101,18 +101,16 @@ def dataSort(results):
         if (results[i][0] == "How bad has your schedule fucked you?"):
             sortArray = results[i][1:len(results[i])]
             for j in range(0, len(sortArray)):
-                print(max(sortArray))
-                print(sortArray.index(max(sortArray)))
                 sortOrder.append(sortArray.index(max(sortArray)))
                 sortArray.remove(max(sortArray))
-    print(sortOrder)
     for i in range(0, len(results)):
         sortedResults.append([])
         sortedResults[i].append(results[i][0])
         results[i].remove(results[i][0])
         for j in range(0, len(sortOrder)):
             sortedResults[i].append(results[i][sortOrder[j]])
-            results[i].remove(results[i][sortOrder[j]])
+            results[i].pop(sortOrder[j])
+    print(results)
     print(sortedResults)
     return sortedResults
 
