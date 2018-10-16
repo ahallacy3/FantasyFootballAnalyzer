@@ -11,15 +11,18 @@ fileName = 'Alumni_Fantasy_League.xlsx'
 weekOneUrl = 'http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=1'
 num_weeks_total = 13
 
+
 def runProgramWithLogin(weekNum, teamCount, userName, passWord, weekOneUrl, resultFileName):
     dataCrawler = espnSpider(weekOneUrl)
     dataCrawler.login(userName, passWord)
     seasonResults = dataCrawler.getData(weekNum, teamCount)
     compileResults(teamCount, seasonResults, weekNum, resultFileName)
 
+
 def runProgramWithSpreadsheet(weekNum, teamCount, fileName, sheetName, resultFileName):
     seasonResults = excelEdit().reader(teamCount, weekNum, fileName, sheetName)
     compileResults(teamCount, seasonResults, weekNum, resultFileName)
+
 
 def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
     resultArray = []
@@ -57,8 +60,6 @@ def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
     scheduleLuck = waeWins().scheduleLuck(actualWins, expectedWins)
 
     teamList.insert(0, 'Team Name')
-    teamList.append('')
-    teamList.append('Averages')
 
     resultArray.append(teamList)
     resultArray.append(totalScores)
@@ -76,7 +77,10 @@ def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
     resultArray.append(expectedWins)
     resultArray.append(scheduleLuck)
 
-    resultArray = dataSort(resultArray) # This is breaking something
+    resultArray = dataSort(resultArray)
+
+    resultArray[0].append('')
+    resultArray[0].append('Averages')
 
     resultArray = addAverage(resultArray)
 
@@ -96,9 +100,8 @@ def addAverage(resultArray):
 def dataSort(results):
     sortedResults = []
     sortOrder = []
-    print(results)
     for i in range(0, len(results)):
-        if (results[i][0] == "How bad has your schedule fucked you?"):
+        if results[i][0] == "How bad has your schedule fucked you?":
             sortArray = results[i][1:len(results[i])]
             for j in range(0, len(sortArray)):
                 sortOrder.append(sortArray.index(max(sortArray)))
@@ -110,9 +113,8 @@ def dataSort(results):
         for j in range(0, len(sortOrder)):
             sortedResults[i].append(results[i][sortOrder[j]])
             results[i].pop(sortOrder[j])
-    print(results)
-    print(sortedResults)
     return sortedResults
+
 
 if __name__ == "__main__":
     if len(sys.argv) == 6:
