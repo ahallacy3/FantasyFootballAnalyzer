@@ -13,11 +13,11 @@ class espnSpider():
         self.url = url
         self.wait = WebDriverWait(self.browser, 10)
 
-
-    def login(self, userName, passWord):
+    def loadInitialPage(self):
         # url should look like http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=1
         self.browser.get(self.url)
 
+    def login(self, userName, passWord):
         self.wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@class="Button Button--default Button--custom ml4"]')))
         self.browser.switch_to_frame('disneyid-iframe');
 

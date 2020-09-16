@@ -14,7 +14,14 @@ num_weeks_total = 13
 
 def runProgramWithLogin(weekNum, userName, passWord, weekOneUrl, resultFileName):
     dataCrawler = espnSpider(weekOneUrl)
+    dataCrawler.loadInitialPage()
     dataCrawler.login(userName, passWord)
+    seasonResults = dataCrawler.getData(weekNum)
+    compileResults(seasonResults, weekNum, resultFileName)
+
+def runProgramWithoutLogin(weekNum, weekOneUrl, resultFileName):
+    dataCrawler = espnSpider(weekOneUrl)
+    dataCrawler.loadInitialPage()
     seasonResults = dataCrawler.getData(weekNum)
     compileResults(seasonResults, weekNum, resultFileName)
 
@@ -76,7 +83,6 @@ def compileResults(seasonResults, weekNum, resultsFileName):
     resultArray.append(lossDiff)
     resultArray.append(expectedWins)
     resultArray.append(scheduleLuck)
-    print(resultArray)
 
     resultArray = dataSort(resultArray)
 
@@ -89,13 +95,11 @@ def compileResults(seasonResults, weekNum, resultsFileName):
 
 
 def addAverage(resultArray):
-    print(resultArray)
     for i in range(1, len(resultArray)):
         total = 0
         for j in range(1, len(resultArray[i])):
             total += resultArray[i][j]
         resultArray[i].append('')
-        print(resultArray[i])
         resultArray[i].append(total / (len(resultArray[i]) - 2))
     return resultArray
 
@@ -122,7 +126,10 @@ def dataSort(results):
 if __name__ == "__main__":
     if len(sys.argv) == 5:
         runProgramWithSpreadsheet(int(sys.argv[1]), int(sys.argv[2]),sys.argv[3],sys.argv[4])
-    elif len(sys.argv) == 6:
-        runProgramWithLogin(int(sys.argv[1]), sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+    elif len(sys.argv) == 7:
+        if sys.argv[6] != 'False':
+            runProgramWithLogin(int(sys.argv[1]), sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+        else:
+            runProgramWithoutLogin(int(sys.argv[1]), sys.argv[4], sys.argv[5])
     else:
         print('Invalid number of arguments')
