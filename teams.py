@@ -1,6 +1,6 @@
 
 class teams:
-    def getTeams(self, num_teams, seasonResults):
+    def getTeams(self, seasonResults):
         teams = []
         for match in seasonResults[0]:
             teams.append(match[0])

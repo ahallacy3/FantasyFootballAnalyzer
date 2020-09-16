@@ -12,22 +12,22 @@ weekOneUrl = 'http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPerio
 num_weeks_total = 13
 
 
-def runProgramWithLogin(weekNum, teamCount, userName, passWord, weekOneUrl, resultFileName):
+def runProgramWithLogin(weekNum, userName, passWord, weekOneUrl, resultFileName):
     dataCrawler = espnSpider(weekOneUrl)
     dataCrawler.login(userName, passWord)
-    seasonResults = dataCrawler.getData(weekNum, teamCount)
-    compileResults(teamCount, seasonResults, weekNum, resultFileName)
+    seasonResults = dataCrawler.getData(weekNum)
+    compileResults(seasonResults, weekNum, resultFileName)
 
 
 def runProgramWithSpreadsheet(weekNum, teamCount, fileName, sheetName, resultFileName):
     seasonResults = excelEdit().reader(teamCount, weekNum, fileName, sheetName)
-    compileResults(teamCount, seasonResults, weekNum, resultFileName)
+    compileResults(seasonResults, weekNum, resultFileName)
 
 
-def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
+def compileResults(seasonResults, weekNum, resultsFileName):
     resultArray = []
 
-    teamList = teams().getTeams(teamCount, seasonResults)
+    teamList = teams().getTeams(seasonResults)
 
     teamScores = scores().teamScores(seasonResults, teamList)
 
@@ -76,6 +76,7 @@ def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
     resultArray.append(lossDiff)
     resultArray.append(expectedWins)
     resultArray.append(scheduleLuck)
+    print(resultArray)
 
     resultArray = dataSort(resultArray)
 
@@ -88,11 +89,13 @@ def compileResults(teamCount, seasonResults, weekNum, resultsFileName):
 
 
 def addAverage(resultArray):
+    print(resultArray)
     for i in range(1, len(resultArray)):
         total = 0
         for j in range(1, len(resultArray[i])):
             total += resultArray[i][j]
         resultArray[i].append('')
+        print(resultArray[i])
         resultArray[i].append(total / (len(resultArray[i]) - 2))
     return resultArray
 
@@ -117,9 +120,9 @@ def dataSort(results):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 6:
-        runProgramWithSpreadsheet(int(sys.argv[1]), int(sys.argv[2]),sys.argv[3],sys.argv[4], sys.argv[5])
-    elif len(sys.argv) == 7:
-        runProgramWithLogin(int(sys.argv[1]), int(sys.argv[2]), sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6])
+    if len(sys.argv) == 5:
+        runProgramWithSpreadsheet(int(sys.argv[1]), int(sys.argv[2]),sys.argv[3],sys.argv[4])
+    elif len(sys.argv) == 6:
+        runProgramWithLogin(int(sys.argv[1]), sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
     else:
         print('Invalid number of arguments')

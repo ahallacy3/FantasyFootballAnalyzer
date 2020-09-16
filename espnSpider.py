@@ -18,34 +18,39 @@ class espnSpider():
         # url should look like http://games.espn.com/ffl/scoreboard?leagueId=1322187&matchupPeriodId=1
         self.browser.get(self.url)
 
-        self.wait.until(EC.element_to_be_clickable((By.XPATH,'//button')))
+        self.wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@class="Button Button--default Button--custom ml4"]')))
         self.browser.switch_to_frame('disneyid-iframe');
 
-        userInput = self.browser.find_element_by_xpath("//div[@class='field field-username-email']//input")
+        self.wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@class='field field-username-email badgeable']//input")))
+
+        userInput = self.browser.find_element_by_xpath("//div[@class='field field-username-email badgeable']//input")
         userInput.send_keys(userName)
-        passInput = self.browser.find_element_by_xpath("//div[@class='field field-password']//input")
+        passInput = self.browser.find_element_by_xpath("//div[@class='field field-password badgeable']//input")
         passInput.send_keys(passWord)
         loginButton = self.browser.find_element_by_xpath('//button')
         loginButton.send_keys(Keys.RETURN)
 
-        time.sleep(5)
+        time.sleep(10)
         self.browser.switch_to_default_content()
-        self.wait.until(EC.visibility_of_element_located((By.CLASS_NAME,'games-pageheader')))
+        self.wait.until(EC.visibility_of_element_located((By.CLASS_NAME,'league-scoreboard-page')))
 
-    def getData(self, weekNum, teamCount):
+    def getData(self, weekNum):
         seasonResults = []
         for i in range(1, weekNum + 1):
             seasonResults.append(self.getWeekData())
             if (i <= weekNum):
                 self.weekNav(i + 1)
         self.browser.close();
+        print(seasonResults)
         return(seasonResults)
 
     def getWeekData(self):
         weekResult = []
         matchResult = []
-        allScores = self.browser.find_elements_by_xpath("//td[@class='score' or @class='winning score']")
-        allOwners = self.browser.find_elements_by_xpath('//span[@class="owners"]')
+        allOwners = self.browser.find_elements_by_xpath(
+            "//div[@class='ScoreCell__TeamName ScoreCell__TeamName--shortDisplayName truncate db']")
+        allScores = self.browser.find_elements_by_xpath(
+            '//div[@class="ScoreCell__Score h4 clr-gray-01 fw-heavy tar ScoreCell_Score--scoreboard pl2"]')
 
         i = 0
         while i < len(allScores):
@@ -60,6 +65,6 @@ class espnSpider():
         return weekResult
 
     def weekNav(self, week):
-        self.url = self.url[0:len(self.url) - 1] + str(week)
-        self.wait.until(EC.visibility_of_element_located((By.ID, 'global-header')))
+        self.url = self.url[0:self.url.find('&mSPID') - 1] + str(week) + '&mSPID=' + str(week)
+        self.wait.until(EC.visibility_of_element_located((By.CLASS_NAME,'league-scoreboard-page')))
         self.browser.get(self.url)
